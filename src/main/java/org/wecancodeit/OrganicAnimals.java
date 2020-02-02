@@ -1,14 +1,14 @@
 package org.wecancodeit;
 
 public class OrganicAnimals {
-	private int animalCount=3;
+	protected int animalCount=3;
 	private String animalName1;
 	private String animalName2;
 	private String animalName3;
 	private String javaDescription;
 	private String gitDescription;
 	private String bashDescription;
-	private int animalHunger=10;
+	private int animalHunger= 10;
 	private int animalThirst=10;
 	private int animalBoredom=10;
 	private String PetTick;

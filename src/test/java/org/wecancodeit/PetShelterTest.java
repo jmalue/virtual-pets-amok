@@ -1,6 +1,7 @@
 package org.wecancodeit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -13,5 +14,6 @@ public class PetShelterTest {
 		String result = shelterName.getshelterName();
 		assertEquals("Arf We Go Meow", result);
 	}
-
+	LitterBoxTest litterBox = new LitterBoxTest();
+	
 }
