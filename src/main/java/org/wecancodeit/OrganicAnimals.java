@@ -1,7 +1,6 @@
 package org.wecancodeit;
 
-public class Animals {
-	private String shelterName;
+public class OrganicAnimals {
 	private int animalCount=3;
 	private String animalName1;
 	private String animalName2;
@@ -14,15 +13,6 @@ public class Animals {
 	private int animalBoredom=10;
 	private String PetTick;
 	private String waterAllPets;
-
-	public void setShelterName(String string) {
-		this.shelterName = string;
-		this.shelterName = "Pet Shoppe";
-	}
-
-	public String getShelterName() {
-		return shelterName;
-	}
 
 	public void setanimalCount(int i) {
 	}

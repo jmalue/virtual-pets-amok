@@ -3,23 +3,12 @@ package org.wecancodeit;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class AnimalTest {
+public class OrganicAnimalsTest {
 
 	@Test
-	public void virtualPetShelterName() {
+	public void petShelterAnimalCount() {
 		// arrange
-		Animals petShoppe = new Animals();
-		// act
-		petShoppe.setShelterName("Pet Shoppe");
-		String result = petShoppe.getShelterName();
-		// assert
-		assertEquals("Pet Shoppe", result);
-	}
-
-	@Test
-	public void petShoppeAnimalCount() {
-		// arrange
-		Animals animalCount = new Animals();
+		OrganicAnimals animalCount = new OrganicAnimals();
 		// act
 		animalCount.setanimalCount(3);
 		int result = animalCount.getanimalCount();
@@ -29,7 +18,7 @@ public class AnimalTest {
 
 	@Test
 	public void animalShelterPetNames() {
-		Animals animalName1 = new Animals();
+		OrganicAnimals animalName1 = new OrganicAnimals();
 		// act
 		animalName1.setanimalName1("Java");
 		String result = animalName1.getanimalName1();
@@ -39,7 +28,7 @@ public class AnimalTest {
 
 	@Test
 	public void animalShelterPetNames2() {
-		Animals animalName2 = new Animals();
+		OrganicAnimals animalName2 = new OrganicAnimals();
 		// act
 		animalName2.setanimalName2("Git");
 		String result = animalName2.getanimalName2();
@@ -49,7 +38,7 @@ public class AnimalTest {
 
 	@Test
 	public void animalShelterPetNames3() {
-		Animals animalName3 = new Animals();
+		OrganicAnimals animalName3 = new OrganicAnimals();
 		// act
 		animalName3.setanimalName3("Bash");
 		String result = animalName3.getanimalName3();
@@ -59,7 +48,7 @@ public class AnimalTest {
 
 	@Test
 	public void JavaPetDescription() {
-		Animals javaDescription = new Animals();
+		OrganicAnimals javaDescription = new OrganicAnimals();
 		// act
 		javaDescription.setJavaDescription("is the color of coffee and smells like it too");
 		Object result = javaDescription.getJavaDescription();
@@ -70,7 +59,7 @@ public class AnimalTest {
 
 	@Test
 	public void GitPetDescription() {
-		Animals gitDescription = new Animals();
+		OrganicAnimals gitDescription = new OrganicAnimals();
 		// act
 		gitDescription.setGitDescription("looks like a cat, but is in fact a dog.");
 		Object result = gitDescription.getGitDescription();
@@ -81,7 +70,7 @@ public class AnimalTest {
 
 	@Test
 	public void BashPetDescription() {
-		Animals bashDescription = new Animals();
+		OrganicAnimals bashDescription = new OrganicAnimals();
 		// act
 		bashDescription.setBashDescription("is black and white and full of spunk.");
 		Object result = bashDescription.getBashDescription();
@@ -92,7 +81,7 @@ public class AnimalTest {
 
 	@Test
 	public void shouldHaveBoredomPet() {
-		Animals animalBoredom = new Animals();
+		OrganicAnimals animalBoredom = new OrganicAnimals();
 		int result = animalBoredom.getanimalBoredom();
 		// assert
 		assertEquals(10, result);
@@ -101,7 +90,7 @@ public class AnimalTest {
 
 	@Test
 	public void tickAllPets() {
-		Animals petTick = new Animals();
+		OrganicAnimals petTick = new OrganicAnimals();
 		Object result = petTick.getPetTick();
 		// act
 		petTick.setPetTick(result);
@@ -112,7 +101,7 @@ public class AnimalTest {
 
 	@Test
 	public void feedAllPets() {
-		Animals feedAllPets = new Animals();
+		OrganicAnimals feedAllPets = new OrganicAnimals();
 		Object result = feedAllPets.getfeedAllPets();
 		// act
 		feedAllPets.setfeedAllPets(result);
@@ -123,7 +112,7 @@ public class AnimalTest {
 
 	@Test
 	public void waterAllPets() {
-		Animals waterAllPets = new Animals();
+		OrganicAnimals waterAllPets = new OrganicAnimals();
 		Object result = waterAllPets.getwaterAllPets();
 		// act
 		waterAllPets.setwaterAllPets(result);
