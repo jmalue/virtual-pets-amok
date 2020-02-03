@@ -1,25 +1,22 @@
 package org.wecancodeit;
 
 public class OrganicAnimals {
-	protected int animalCount=3;
-	private String animalName1;
-	private String animalName2;
-	private String animalName3;
 	private String javaDescription;
 	private String gitDescription;
 	private String bashDescription;
-	private int animalHunger= 10;
-	private int animalThirst=10;
-	private int animalBoredom=10;
+	private int animalHunger = 10;
+	private int animalThirst = 10;
+	private int animalBoredom = 10;
 	private String PetTick;
 	private String waterAllPets;
+	protected String cat1;
+	protected String cat2;
+	protected String cat3;
+	protected String allOrganicCats;
+	protected String tick;
+	
 
-	public void setanimalCount(int i) {
-	}
 
-	public int getanimalCount() {
-		return animalCount;
-	}
 
 	public String getJavaDescription() {
 		return javaDescription;
@@ -54,29 +51,6 @@ public class OrganicAnimals {
 		this.animalBoredom = (10);
 	}
 
-	public void setanimalName1(String string) {
-		this.animalName1 = "Java";
-
-	}
-
-	public String getanimalName1() {
-		return "";
-
-	}
-
-	public void setanimalName2(String string) {
-		this.animalName2 = "Git";
-	}
-
-	public String getanimalName2() {
-		return "";
-	}
-
-	public void setanimalName3(String string) {
-		this.animalName3 = "Bash";
-
-	}
-	
 	public String getanimalName3() {
 		return "";
 	}
@@ -111,17 +85,20 @@ public class OrganicAnimals {
 
 	public String getwaterAllPets(String string) {
 		return "";
-	
+
 	}
+
 	public int getanimalBoredom() {
 		return animalBoredom;
 	}
 
-	public void setPetTick(Object result) {
-
+	public void setPetTick(String string) {
+		this.animalBoredom = animalBoredom++;
+		this.animalThirst = animalThirst++;
+		this.animalHunger = animalHunger++;
 	}
 
-	public Object getPetTick() {
+	public String getPetTick() {
 		return "";
 	}
 
@@ -141,7 +118,91 @@ public class OrganicAnimals {
 	public void setwaterAllPets(Object result) {
 
 	}
-		
+
+	public void useLitterBox() {
+
 	}
 
-	
+	public int getPoop() {
+		return 0;
+	}
+
+	public void tick() {
+
+	}
+
+	public void setcat1() {
+
+	}
+
+	public String getcat1() {
+		return "";
+	}
+
+	public void setcat1(String string) {
+
+	}
+
+	public void setcat2(String string) {
+
+	}
+
+	public String getcat2() {
+		return "";
+	}
+
+	public void setcat3(String string) {
+
+	}
+
+	public String getcat3() {
+		return "";
+	}
+
+	public void setallOrganicCats() {
+		this.getcat1();
+		this.getcat2();
+		this.getcat3();
+	}
+
+	public String getallOrganicCats() {
+		return"";
+	}
+
+}
+
+//protected int animalCount = 3;
+//	private String animalName1;
+//	private String animalName2;
+//	private String animalName3;
+
+//public void setanimalCount(int i) {
+//}
+//
+//public int getanimalCount() {
+//	return animalCount;
+//}
+
+//
+//public void setanimalName1(String string) {
+//	this.animalName1 = "Java";
+//
+//}
+//
+//public String getanimalName1() {
+//	return "";
+
+//}
+//
+//public void setanimalName2(String string) {
+//	this.animalName2 = "Git";
+//}
+//
+//public String getanimalName2() {
+//	return "";
+//}
+//
+//public void setanimalName3(String string) {
+//	this.animalName3 = "Bash";
+//
+//}
