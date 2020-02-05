@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class LitterBoxTest {
 
-	LitterBox underTest = new LitterBox("", "", "");
+	LitterBox underTest = new LitterBox();
 
 	@Test
 	public void shouldIncreasOrDecreaseLitterLevel() {

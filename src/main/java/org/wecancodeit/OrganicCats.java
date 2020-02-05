@@ -5,6 +5,12 @@ public class OrganicCats {
 	private static final int DEFAULT_LITTER_LEVEL = 5;
 	private int litterLevel = DEFAULT_LITTER_LEVEL;
 
+	public OrganicCats(String string, String string2, String string3) {
+	}
+
+	public OrganicCats() {
+	}
+
 	public int getlitterLevel() {
 		return litterLevel;
 	}

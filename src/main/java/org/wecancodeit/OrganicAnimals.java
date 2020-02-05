@@ -4,9 +4,8 @@ public class OrganicAnimals {
 	private String javaDescription;
 	private String gitDescription;
 	private String bashDescription;
-	private int animalHunger = 10;
-	private int animalThirst = 10;
-	private int animalBoredom = 10;
+	private int animalThirst;
+	private int animalBoredom;
 	private String PetTick;
 	private String waterAllPets;
 	protected String cat1;
@@ -14,9 +13,7 @@ public class OrganicAnimals {
 	protected String cat3;
 	protected String allOrganicCats;
 	protected String tick;
-	
-
-
+	protected int animalHunger = 0;
 
 	public String getJavaDescription() {
 		return javaDescription;
@@ -51,6 +48,10 @@ public class OrganicAnimals {
 		this.animalBoredom = (10);
 	}
 
+	public int getanimalBoredom() {
+		return animalBoredom;
+
+	}
 	public String getanimalName3() {
 		return "";
 	}
@@ -88,15 +89,6 @@ public class OrganicAnimals {
 
 	}
 
-	public int getanimalBoredom() {
-		return animalBoredom;
-	}
-
-	public void setPetTick(String string) {
-		this.animalBoredom = animalBoredom++;
-		this.animalThirst = animalThirst++;
-		this.animalHunger = animalHunger++;
-	}
 
 	public String getPetTick() {
 		return "";
@@ -166,11 +158,25 @@ public class OrganicAnimals {
 	}
 
 	public String getallOrganicCats() {
-		return"";
+		return "";
 	}
 
-}
+	public void setanimalHunger() {
+		this.animalHunger = 0;
+	}
 
+	public int getanimalHunger() {
+		return 0;
+	}
+
+	public void setAnimalThirts() {
+	this.setAnimalThirts();
+	
+}
+	public int getanimalThirst() {
+		return 0;
+	}
+}
 //protected int animalCount = 3;
 //	private String animalName1;
 //	private String animalName2;

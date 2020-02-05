@@ -3,7 +3,7 @@ package org.wecancodeit;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class RoboticAnimalsTest {
+public class RoboticAnimalsTest implements RobotAnimals {
 
 	@Test
 	public void shouldBeRobotDog() {
@@ -29,26 +29,25 @@ public class RoboticAnimalsTest {
 
 	}
 
+	@Override
 	@Test
 	public void shouldBeAbleToOilRobotPets() {
 		RoboticAnimals oilRobotPets = new RoboticAnimals();
-		Object result = oilRobotPets.getoilRobotPets();
-		// act
-		oilRobotPets.setoilRobotPets(result);
+		int result = oilRobotPets.getoilRobotPets();
 		// assert
-		assertEquals("", result);
+		assertEquals(10, result);
 	}
 
+	@Override
 	@Test
 	public void shouldChargeLowBattery() {
 		RoboticAnimals chargeBattery = new RoboticAnimals();
-		Object result = chargeBattery.getchargeBattery();
-		// act
-		chargeBattery.setchargeBattery(result);
+		int result = chargeBattery.getchargeBattery();
 		// assert
-		assertEquals("", result);
+		assertEquals(10, result);
 	}
 
+	@Override
 	@Test
 	public void shouldShutDown() {
 		RoboticAnimals shutDown = new RoboticAnimals();

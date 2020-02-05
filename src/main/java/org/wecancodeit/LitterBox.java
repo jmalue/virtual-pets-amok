@@ -2,7 +2,7 @@ package org.wecancodeit;
 
 public class LitterBox {
 
-	public LitterBox(String string, String string2, String string3) {
+	public LitterBox() {
 	}
 
 	public String getPetTick(String result) {

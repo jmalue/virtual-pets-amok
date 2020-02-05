@@ -2,6 +2,14 @@ package org.wecancodeit;
 
 public class OrganicDogs {
 
+	public OrganicDogs(String petName, String petNumber, String string3) {
+	}
+
+
+	public OrganicDogs() {
+	}
+
+
 	public void setdog1(String name) {
 		this.getdog1();
 	}

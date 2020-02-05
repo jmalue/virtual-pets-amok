@@ -7,12 +7,12 @@ public class DogCage {
 	private int cageCleanliness;
 
 	public int getcageCleanliness() {
-	return cageCleanliness; 
+		return cageCleanliness;
 
 	}
 
 	public void getClean() {
 		cageCleanliness -= DEFAULT_CAGE_CLEANLINESS;
-		 
+
 	}
 }

@@ -2,13 +2,18 @@ package org.wecancodeit;
 
 public class RoboticAnimals {
 
+	private int getoilRobotPets;
+	private int getchargeBattery;
+
 	public RoboticAnimals() {
 		String robotDog;
 		String robotCat;
-		Object oilRobotPets;
-		Object chargeBattery;
-		Object shutDown;
+		
+		
 
+	}
+
+	public RoboticAnimals(String string, String string2, String string3) {
 	}
 
 	public void setrobotDog(String RoboDog) {
@@ -27,29 +32,20 @@ public class RoboticAnimals {
 		return "RoboCat";
 	}
 
-	public Object getoilRobotPets() {
-		return "";
-	}
-
-	public void setoilRobotPets(Object result) {
-		this.getoilRobotPets();
-
-	}
-
-	public Object getchargeBattery() {
-		return "";
-	}
-
-	public void setchargeBattery(Object result) {
-		this.getchargeBattery();
-	}
-
-	public Object getshutDown() {
+		public Object getshutDown() {
 		return "";
 	}
 
 	public void setshutDown(Object result) {
 		this.getshutDown();
+	}
+
+	public int getoilRobotPets() {
+		return 10;
+	}
+
+	public int getchargeBattery() {
+		return 10;
 	}
 
 }

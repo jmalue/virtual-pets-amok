@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class OrganicAnimalsTest {
+	
 	OrganicCats underTest = new OrganicCats();
 	private int cat2;
 	private String cat1;
@@ -99,6 +100,15 @@ public class OrganicAnimalsTest {
 			result = waterAllPets.getwaterAllPets();
 			// assert
 			assertEquals("", result);
+		}
+		
+		@Test
+		public void shouldShowAnimalHunger() {
+			OrganicAnimals animalHunger = new OrganicAnimals();
+			OrganicAnimals result = animalHunger = new OrganicAnimals();
+			animalHunger.setanimalHunger();
+			assertEquals(0, result);
+			
 		}
 //
 //	}
